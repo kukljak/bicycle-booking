@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bicycle-booking/static/css/main.bc379be8.chunk.css",
+    "main.js": "/bicycle-booking/static/js/main.0d8b6782.chunk.js",
+    "main.js.map": "/bicycle-booking/static/js/main.0d8b6782.chunk.js.map",
+    "runtime-main.js": "/bicycle-booking/static/js/runtime-main.1f2ee3ba.js",
+    "runtime-main.js.map": "/bicycle-booking/static/js/runtime-main.1f2ee3ba.js.map",
+    "static/js/2.e46ce600.chunk.js": "/bicycle-booking/static/js/2.e46ce600.chunk.js",
+    "static/js/2.e46ce600.chunk.js.map": "/bicycle-booking/static/js/2.e46ce600.chunk.js.map",
+    "index.html": "/bicycle-booking/index.html",
+    "static/css/main.bc379be8.chunk.css.map": "/bicycle-booking/static/css/main.bc379be8.chunk.css.map",
+    "static/js/2.e46ce600.chunk.js.LICENSE.txt": "/bicycle-booking/static/js/2.e46ce600.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f2ee3ba.js",
+    "static/js/2.e46ce600.chunk.js",
+    "static/css/main.bc379be8.chunk.css",
+    "static/js/main.0d8b6782.chunk.js"
+  ]
+}
