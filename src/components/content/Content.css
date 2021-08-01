@@ -224,7 +224,7 @@ ul {
 }
 
 .submit-btn:disabled {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .section-line {
