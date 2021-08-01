@@ -1,0 +1,43 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #696969;
+    height: max-content;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signature h5 {
+    display: inline-block;
+    margin: 0;
+}
+
+.employeePosition {
+    padding: 5.5px 0;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;    
+    color: #CBCACA;
+}
+
+.employeeInitial {
+    padding: 5.5px 10px;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+}

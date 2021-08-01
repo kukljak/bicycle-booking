@@ -1,0 +1,246 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.bicycle-list, .add-bicycle {
+    width: 55%;
+}
+
+.add-bicycle {
+    width: 45%;
+}
+.bicycle-box-info {
+    margin: 6px 9px 6px 12px;
+    background: #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bicycle-box-info:last-child {
+    margin-bottom: 15%;
+}
+
+.inputInfo input {
+    width: 40%;
+    padding: 5px 16px;
+    border: none;
+    background: #E8E8E8;
+    border-radius: 5px;
+    margin: 5.5px;
+}
+
+.inputInfo textarea {
+    padding: 5px 16px;
+}
+
+#description {
+    border: none;
+    background: #E8E8E8;
+    border-radius: 5px;
+    margin: 5.5px auto 5.5px 5.5px;
+    width: 87%;
+    height: 100px;
+    resize: none;
+}
+
+#numbers::-webkit-outer-spin-button,
+#numbers::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#numbers {
+    -moz-appearance: textfield;
+}
+
+.status-bike {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.status-bike > .status {
+    
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.dropdown-btn {
+    border: none;
+}
+
+.menu {
+    margin: 0;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.menu > li {
+    cursor: pointer;
+}
+
+#submenu {
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menu > li > ul {
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.menu > li > ul > li {
+    padding: 5px;
+    border-bottom: 1px solid #C4C4C4;
+    cursor: pointer;
+}
+
+.menu > li > ul > li:last-child {
+    border-bottom: none;
+}
+
+.menu > li > ul > li:hover {
+    background: #696969;
+    color: #FFFFFF;
+}
+
+.hideDropList {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.delete-price-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dropdown-close {
+    margin: 12px 12px auto auto;
+    cursor: pointer;
+}
+
+.dropdown-close > svg {
+    float: right;
+}
+
+.name-type {
+    display: flex;
+    align-items: center;
+}
+
+.name-type > #name {
+    margin: 0;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.name-type > #type, .name-type > #color {
+    margin: 0;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.bicycle-info {
+    margin: 12px 18px;
+}
+
+.bicycle-info > .id > h3 {
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 13px;
+    color: #717171;
+}
+
+.price {
+    margin: 0 12px 0 0;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.available {
+    border: 2px solid #6FCF97;
+}
+
+.unavaible {
+    opacity: 0.5;
+    border: 2px solid #EB5757;
+}
+
+.busy {
+    border: 2px solid #F2994A;
+}
+
+.statistics-title {
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.form-btn {
+    margin: 4px 5.5px 20px;
+    width: 45%;
+    text-align: center;
+    border: none;
+    padding: 4px 22px;
+    background: #696969;
+    border-radius: 5px;
+    font-family: Saira;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.submit-btn:disabled {
+    opacity: 50%;
+}
+
+.section-line {
+    border: none;
+    border-left: 1px solid #C4C4C4;
+}
+
+.statistics-info, hr {
+    margin-left: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #C4C4C4;
+}
+
+.inputInfo {
+    margin-left: 4.5px;
+}
