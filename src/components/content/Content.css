@@ -227,6 +227,10 @@ ul {
     opacity: 0.5;
 }
 
+.clear-btn {
+    cursor: pointer;
+}
+
 .section-line {
     border: none;
     border-left: 1px solid #C4C4C4;
